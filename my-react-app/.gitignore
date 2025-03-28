@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Ensure package.json is NOT ignored
+!package.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
